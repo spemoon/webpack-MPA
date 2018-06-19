@@ -1,0 +1,20 @@
+@mixin header {
+    height: 100px;
+    .logo {
+        width: 200px;
+    }
+    .nav-bar {
+        float: right;
+        ul {
+            li {
+                float: left;
+                width: 150px;
+                font-size: 16px;
+                color: #2b2b2b;
+                line-height: 100px;
+                vertical-align: middle;
+                text-align: center;
+            }
+        }
+    }
+}
